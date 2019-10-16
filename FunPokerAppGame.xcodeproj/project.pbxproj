@@ -14,6 +14,7 @@
 		2159214D23572F590057441D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2159214B23572F590057441D /* LaunchScreen.storyboard */; };
 		2159215823572F590057441D /* FunPokerAppGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2159215723572F590057441D /* FunPokerAppGameTests.swift */; };
 		2159216323572F590057441D /* FunPokerAppGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2159216223572F590057441D /* FunPokerAppGameUITests.swift */; };
+		21592171235734AE0057441D /* DeckOfCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21592170235734AE0057441D /* DeckOfCards.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		2159215E23572F590057441D /* FunPokerAppGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunPokerAppGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2159216223572F590057441D /* FunPokerAppGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunPokerAppGameUITests.swift; sourceTree = "<group>"; };
 		2159216423572F590057441D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21592170235734AE0057441D /* DeckOfCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckOfCards.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				2159214923572F590057441D /* Assets.xcassets */,
 				2159214B23572F590057441D /* LaunchScreen.storyboard */,
 				2159214E23572F590057441D /* Info.plist */,
+				21592170235734AE0057441D /* DeckOfCards.swift */,
 			);
 			path = FunPokerAppGame;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2159214523572F570057441D /* ViewController.swift in Sources */,
+				21592171235734AE0057441D /* DeckOfCards.swift in Sources */,
 				2159214323572F570057441D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
